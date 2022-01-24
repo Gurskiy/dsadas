@@ -18,3 +18,11 @@ theme: /
         event!: noMatch
         a: Я не понял. Вы сказали: {{$request.query}}
 
+    state: InputText
+        InputText:
+            prompt = owe
+            varName = rwe
+            html = 
+            htmlEnabled = false
+            then = /NoMatch
+            actions =
